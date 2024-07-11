@@ -1,0 +1,15 @@
+using System;
+using System.Runtime.InteropServices;
+
+
+namespace AmsiSimulation
+{
+    public class AmsiUtils
+    {
+        
+        public static int AmsiScanBuffer(IntPtr buffer, uint length, string contentName, IntPtr session, IntPtr result)
+        {
+            return 0; 
+        }
+    }
+}
